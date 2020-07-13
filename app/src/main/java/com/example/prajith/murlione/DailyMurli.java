@@ -42,7 +42,9 @@ public class DailyMurli extends AppCompatActivity {
                 webView.setWebViewClient(new WebViewClient());
                 webView.getSettings().setDomStorageEnabled(true);
               //  webView.loadUrl("http://madhubanmurli.org/#ml+2019-07-29");
-                webView.loadUrl("http://madhubanmurli.org/#ml+" + picker.getYear() + "-0" + (picker.getMonth() + 1) + "-" + picker.getDayOfMonth());
+                //https://www.kerala.brahmakumaris.com/dailymurali/13-07-2020/
+               // webView.loadUrl("http://madhubanmurli.org/#ml+" + picker.getYear() + "-0" + (picker.getMonth() + 1) + "-" + picker.getDayOfMonth());
+                webView.loadUrl("https://www.kerala.brahmakumaris.com/dailymurali/" + picker.getDayOfMonth() + "-0" + (picker.getMonth() + 1) + "-" + picker.getYear());
                 Toast.makeText(DailyMurli.this, "Loading Malayalam Murli +"+ picker.getYear() + "-0" + (picker.getMonth() + 1) + "-" + picker.getDayOfMonth(),
                         Toast.LENGTH_SHORT).show();
                 WebSettings webSettings = webView.getSettings();
