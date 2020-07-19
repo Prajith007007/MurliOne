@@ -11,6 +11,7 @@
         android:roundIcon="@drawable/baba1"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Listoflink"></activity>
         <activity android:name=".EnableLive">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,7 +19,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DailyMurli"></activity>
+        <activity android:name=".DailyMurli" />
     </application>
 
 </manifest>

@@ -38,4 +38,16 @@
         android:layout_marginBottom="30dp"
         android:text="Watch Murli Live" />
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="164dp"
+        android:text="Enter In"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="508dp" />
+
+
 </RelativeLayout>

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Brahmakumaris Keralam</string>
+    <string name="clickone">clickone</string>
+    <string name="icon">Icon</string>
 </resources>
